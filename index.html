@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joyeria artesanal</title>
+    <link rel="stylesheet" type="text/css" href="style_general.css">
+      <link rel="stylesheet" type="text/css" href="style_index.css">
   </head>
   <body>
     <!-- Aqui voy a poner el logo + menu de navegación-->
     <header>
-      <img src="./image/logo.png" />
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nosotros.html">Sobre nosotros</a></li>
-          <li><a href="encargo.html">Encargo</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+          <img src="./image/logo.png" alt="Logo Lunae"/>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nosotros.html">Sobre nosotros</a></li>
+            <li><a href="encargo.html">Encargo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
       </nav>
     </header>
     <!--Termina-->
     <!--Aquí comienza todo el contenido de la web-->
-    <section>
+    <div id="portada">
       <img src="./image/img1.jpg" />
-    </section>
-    <section>
+    </div>
+    <div>
       <h1>Lunae – Joyería artesanal inspirada en la magia de la luna</h1>
       <p>
         En Lunae, cada pieza cuenta una historia. Fusionamos materiales
@@ -32,15 +34,21 @@
         está hecho a mano con intención, en pequeños lotes, para conservar la
         autenticidad de lo imperfectamente bello.
       </p>
-      <ul>
-        <li><img src="./image/anillos.png" /></li>
-        <li><img src="./image/collares.png" /></li>
-        <li><img src="./image/pendientes.png" /></li>
+      <ul id="productos">
+        <li><img src="./image/anillos.png" alt="anillos" class="iconos" /></li>
+        <li><img src="./image/collares.png" alt="collares" class="iconos" /></li>
+        <li><img src="./image/pendientes.png" alt="pendientes" class="iconos" /></li>
       </ul>
-    </section>
-    <section>
+    </div>
+    <div id="section_2">
       <!--Subtitulo-->
-      <h2>Creaciones únicas hechas a mano con alma, tiempo y propósito.</h2>
-    </section>
+      <img src="./image/img5.jpg" alt="imagen joyero" />
+      <h2>"Creaciones únicas hechas a mano con alma, tiempo y propósito."</h2>
+    </div>
   </body>
+  <footer>
+    <h5 class="politica">Politica privacidad</h5>
+    <h5 class="politica">Politica de cookies</h5>
+    <p class="politica">Creado por Raúl Teruel Diez, 2025</p>
+  </footer>
 </html>

@@ -1,0 +1,98 @@
+/* Codigo general para toda la web */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+h1 {
+    font-size: 46px;
+    align-items: center;
+}
+
+/* Aquí termina todo el codigo general de la web */
+
+/* Aquí comienza el header, este es el mismo para todas las URLS */
+
+header {
+    background-color: rgb(255, 213, 124);
+    color: white;
+    height: 90px;
+    display: flex;
+    /* Con esto he podido centrar tanto vertical como horizontal */
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+
+nav img {
+    object-fit: contain; /* Recordar: se usa para que el logo encaje en el contenedor y no sobresalga ni se deforme */
+    height: 80px;
+}
+
+nav {
+    width: 90%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;  /* Recordar: se usa para el espaciado entre elementos */
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav li a:hover{
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease;
+}
+
+/* Aqui termina el codigo del header */
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-height: 10%;
+    margin-top: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.politica {
+
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 5% 0;
+    gap: 10px;
+}
+
+footer :first-child {
+    background-color: blueviolet;
+}
+
+footer :nth-child(2) {
+    margin-top: 3%;
+    color: blue;
+}
+
+p.politica {
+    font-size: 0.55em;
+    margin: 0 auto;
+}
