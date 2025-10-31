@@ -16,6 +16,10 @@ h1 {
     align-items: center;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* Aquí termina todo el codigo general de la web */
 
 /* Aquí comienza el header, este es el mismo para todas las URLS */
