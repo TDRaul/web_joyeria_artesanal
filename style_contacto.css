@@ -21,6 +21,10 @@ input {
     font-size: 1rem;
 }
 
+input:focus {
+    background-color: rgb(252, 191, 167);
+}
+
 textarea {
     width: 20rem;
     height: 5rem;

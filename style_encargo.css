@@ -3,29 +3,33 @@ body {
     text-align: center;
 }
 
-#presentacion_encargos {
-    background-color: rgb(255, 213, 124);
-}
+ #presentacion_encargos {
+        background-color: rgb(185, 185, 185);
+    }
 
-#presentacion_encargos h1 {
-    text-align: center;
-    width: 90%;
-}
+    #presentacion_encargos h1 {
+        text-align: center;
+        font-size: 1.9rem;
+        width: 100%;
+        padding: 1rem;
+    }
 
-#presentacion_encargos p {
-    text-align: center;
-    width: 70%;
-}
+    #presentacion_encargos p {
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem;
+    }
 
-#productos {
-    width: 100%;
-}
+    #productos {
+        width: 100%;
+        display: block;
+    }
 
-#productos img {
-    width: 30%;
-    display: flex;
-    
-}
+    #productos img {
+        width: 30%;
+        padding: 1rem;
+    }
 
 @media (max-width: 350px) {
     #presentacion_encargos {
@@ -55,7 +59,7 @@ body {
 
 @media (min-width: 400px) and (max-width:900px) {
 
-      #presentacion_encargos {
+    #presentacion_encargos {
         background-color: rgb(185, 185, 185);
     }
 
