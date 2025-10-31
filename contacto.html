@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
     <link rel="stylesheet" type="text/css" href="style_general.css">
+    <link rel="stylesheet" type="text/css" href="style_contacto.css">
   </head>
   <body>
     <!-- Aqui voy a poner el logo + menu de navegación-->
@@ -20,19 +22,28 @@
       </nav>
     </header>
     <!--Termina-->
-    <h1>Si tienes algo en mente, dinoslo, nosotros lo hacemos.</h1>
-    <p>
-      Toda idea que tengas en la cabeza para una joya, solo tienes que decirlo y
-      vemos como lo podemos hacer.
-    </p>
-    <form>
-      <label for="nombre">Nombre y apellidos</label>
-      <imput type="text" name="nombre" placeholder="Nombre y apellidos"></imput><br/>
-      <label for="email">Email</label>
-      <imput type="email" name="email" placeholder="ejemplo@gmail.com"></imput><br/>
-      <label for="mensaje">Mensaje</label>
-      <imput type="mensaje" name="mensaje" placeholder="Ingresa tu idea aquí"></imput><br/>
+    <!-- Formulario contacto -->
+     <div id="titulo_formulario">
+        <h1>Si tienes algo en mente, dinoslo, nosotros lo hacemos.</h1><br />
+        <p>
+          Toda idea que tengas en la cabeza para una joya, solo tienes que decirlo y
+          vemos como lo podemos hacer.
+        </p>
+      </div>
+    <form method="post">
+      <label for="nombre">Nombre y apellidos</label><br />
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos"></input><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com"></input><br />
+      <label for="mensaje">Mensaje</label><br />
+      <textarea id="mensaje" name="mensaje" placeholder="Ingresa tu idea aquí"></textarea><br />
       <button type="submit">Enviar</button>
     </form>
+    <!-- Termina -->
+    <footer>
+      <a href="#" class="politica">Politica privacidad</a>
+      <a href="#" class="politica">Politica de cookies</a>
+      <p class="politica">Creado por Raúl Teruel Diez, 2025</p>
+    </footer>
   </body>
 </html>

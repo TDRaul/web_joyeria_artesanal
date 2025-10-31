@@ -1,0 +1,141 @@
+#presentacion {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+#presentacion p {
+    width: 60%;
+    margin: 2rem auto;
+
+}
+
+/*  Estilo para el equipo humano xD */
+
+.team {
+    width: 100%;
+    display: flex;
+}
+
+.team div {
+    display: grid;
+    place-items: center;
+}
+
+.team img {
+    width: 40%;
+    margin: 1rem 3rem;
+    object-fit: contain;
+}
+
+.team p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fin del equipo humano */
+
+/* Estilo para el equipo de apoyo */
+
+#apoyo {
+    width: 100%;
+    background-color: rgb(170, 91, 1);
+    color: white;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem;
+}
+
+#mascotas {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 350px) {
+
+    #presentacion {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.7rem;
+    }
+
+    #presentacion h1 {
+        font-size: 2.5rem;
+    }
+
+    #presentacion p {
+    width: 60%;
+    margin: 1rem auto;
+
+    }
+
+/*  Estilo para el equipo humano xD */
+
+    .team img {
+        width: 70%;
+        margin: 1rem 3rem;
+        object-fit: contain;
+    }
+
+    .team p {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width:900px) {
+    
+    #presentacion {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.7rem;
+    }
+
+    #presentacion h1 {
+        font-size: 2.1rem;
+    }
+
+    #presentacion p {
+    width: 60%;
+    margin: 1rem auto;
+    font-size: 1rem;
+
+    }
+
+/* Estilo para el equipo humano xD */
+
+    .team img {
+        width: 70%;
+        margin: 1rem 3rem;
+        object-fit: contain;
+    }
+
+    .team p {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    #apoyo h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #apoyo p {
+        font-size: 1.5rem;
+    }
+}
