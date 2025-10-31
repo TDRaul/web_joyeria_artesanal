@@ -21,7 +21,7 @@ h1 {
 /* Aquí comienza el header, este es el mismo para todas las URLS */
 
 header {
-    background: linear-gradient(black, rgb(255, 213, 124));
+    background: linear-gradient(rgb(170, 91, 1), rgb(255, 213, 124));
     color: white;
     height: 90px;
     display: flex;
@@ -102,7 +102,6 @@ a.politica:hover {
 
 @media (max-width: 350px) {
     header {
-        color: white;
         display: block;
         height: 25%;
         width: 100%;
@@ -112,7 +111,6 @@ a.politica:hover {
     }
 
     nav img {
-        object-fit: contain; /* Recordar: se usa para que el logo encaje en el contenedor y no sobresalga ni se deforme */
         width: 30%;
     }
 
@@ -123,25 +121,11 @@ a.politica:hover {
 
     nav ul {
         display: block; 
-        list-style: none;
-    }
-
-    nav li a {
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-    }
-
-    nav li a:hover{
-        color: rgb(255, 255, 255);
-        transition: color 0.5s ease;
     }
 }
 
 @media (min-width: 400px) and (max-width:900px) {
     header {
-        color: white;
-        display: flex;
         height: 25%;
         width: 100%;
         /* Con esto he podido centrar tanto vertical como horizontal */
@@ -150,31 +134,16 @@ a.politica:hover {
     }
 
     nav img {
-        object-fit: contain; /* Recordar: se usa para que el logo encaje en el contenedor y no sobresalga ni se deforme */
         width: 30%;
         padding: 1rem;
     }
 
     nav {
         width: 100%;
-        display: flex;
     }
 
     nav ul {
-        display: flex; 
-        list-style: none;
         font-size: 0.7rem;
         padding-right: 1rem;
-    }
-
-    nav li a {
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-    }
-
-    nav li a:hover{
-        color: rgb(255, 255, 255);
-        transition: color 0.5s ease;
     }
 }

@@ -57,12 +57,7 @@
 @media (max-width: 350px) {
 
     #presentacion {
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 1rem 0;
-    font-size: 0.7rem;
+        font-size: 0.7rem;
     }
 
     #presentacion h1 {
@@ -70,24 +65,16 @@
     }
 
     #presentacion p {
-    width: 60%;
-    margin: 1rem auto;
-
+        margin: 1rem auto;
     }
 
 /*  Estilo para el equipo humano xD */
 
     .team img {
         width: 70%;
-        margin: 1rem 3rem;
-        object-fit: contain;
     }
 
     .team p {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 0.7rem;
     }
 }
@@ -95,12 +82,7 @@
 @media (min-width: 400px) and (max-width:900px) {
     
     #presentacion {
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 1rem 0;
-    font-size: 0.7rem;
+        font-size: 0.7rem;
     }
 
     #presentacion h1 {
@@ -108,25 +90,18 @@
     }
 
     #presentacion p {
-    width: 60%;
-    margin: 1rem auto;
-    font-size: 1rem;
-
+        margin: 1rem auto;
+        font-size: 1rem;
     }
 
 /* Estilo para el equipo humano xD */
 
     .team img {
         width: 70%;
-        margin: 1rem 3rem;
-        object-fit: contain;
     }
 
     .team p {
         width: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 1rem;
     }
 
